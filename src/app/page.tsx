@@ -7,8 +7,8 @@ function Home() {
   return (
     <>
       <Hero />
-      <div className="container mx-auto px-4 py-6">
-        <div className="grid grid-cols-1 gap-2 md:grid-cols-4">
+      <div className="container mx-auto px-4 py-4">
+        <div className="grid grid-cols-1 gap-4 md:grid-cols-4">
           <StatCard
             label="Points Per Game"
             value="31.1"
@@ -33,7 +33,7 @@ function Home() {
       </div>
 
       <div className="container mx-auto px-4 py-6">
-        <div className="grid grid-cols-1 gap-4 md:grid-cols-5">
+        <div className="grid grid-cols-1 gap-3 md:grid-cols-5">
           <FeatureCard
             title="Best Games"
             description="Check out Shai's best games this season."
