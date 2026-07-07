@@ -9,7 +9,6 @@ function Header() {
       </Link>
 
       <nav className='flex gap-4'>
-        <Link href="/">Home</Link>
         <Link href="/best-games">Best Games</Link>
         <Link href="/mvp-watch">MVP Watch</Link>
         <Link href="/compare">Compare</Link>
