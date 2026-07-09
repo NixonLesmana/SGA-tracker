@@ -1,16 +1,21 @@
-import React from 'react'
-
 function Hero() {
     return (
-        <section className="px-8 py-20">
-            <p>Shai Gilgeous-Alexander stat tracker</p>
-            <h1>{"Track Shai's best games, MVP case, playoff runs, and career rise."}</h1>
-            <p>
-                {"A focused dashboard for following SGA's biggest performances, " +
-                    "season trends, comparisons, and milestones."}
-            </p>
+        <section className="container mx-auto px-4 py-20">
+            <header className="max-w-3xl">
+                <p className="mb-4 text-sm font-semibold uppercase tracking-wide text-blue-400">
+                    SGA • OKC • 2
+                </p>
+
+                <h1 className="text-4xl font-bold leading-tight text-white md:text-6xl">
+                    Shai Gilgeous-Alexander
+                </h1>
+
+                <p className="mt-6 max-w-2xl text-lg leading-8 text-slate-300">
+                    Track Shai&apos;s MVP-level scoring, clutch performances, and playoff impact with stats, game logs, and historical context.
+                </p>
+            </header>
         </section>
     );
 }
 
-export default Hero
+export default Hero;
