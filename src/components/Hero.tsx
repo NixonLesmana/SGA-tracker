@@ -3,7 +3,7 @@ function Hero() {
         <section className="container mx-auto px-4 py-20">
             <header className="max-w-3xl">
                 <p className="mb-4 text-sm font-semibold uppercase tracking-wide text-blue-400">
-                    SGA • OKC • 2
+                    OKC • 2
                 </p>
 
                 <h1 className="text-4xl font-bold leading-tight text-white md:text-6xl">
