@@ -15,7 +15,7 @@ const mvpStats = [
         detail: "Current favorite",
     },
     {
-        label: "Recent Form",
+        label: "Recent",
         value: "32.4 PPG",
         detail: "Last 10 games",
     },
@@ -32,7 +32,7 @@ function MVPWatch() {
                     MVP Watch
                 </h1>
                 <p className="mt-4 text-lg leading-8 text-slate-300">
-                    Track Shai's MVP case through production, efficiency, team success, and recent form.
+                    Track Shai&apos;s MVP case through production, efficiency, team success, and recent form.
                 </p>
             </header>
 
