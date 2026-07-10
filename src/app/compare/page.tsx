@@ -1,21 +1,14 @@
 import { players, comparisonRows } from "@/data/compare"
+import PageHeader from "@/components/PageHeader"
 
 function Compare() {
     return (
         <section className="container mx-auto px-4 py-12">
-            <header className="max-w-3xl">
-                <p className="text-sm font-semibold uppercase tracking-wide text-blue-400">
-                    Player Comparison
-                </p>
-
-                <h1 className="mt-3 text-4xl font-bold text-white md:text-5xl">
-                    Compare Seasons
-                </h1>
-
-                <p className="mt-4 text-lg leading-8 text-slate-300">
-                    Compare Shai&apos;s 2024-25 season side-by-side with his 2023-24 MVP campaign.
-                </p>
-            </header>
+            <PageHeader
+                eyebrow="Player Comparison"
+                title="Compare Seasons"
+                description="Compare Shai's 2024-25 season side-by-side with his 2023-24 MVP campaign."
+            />
 
             <section
                 aria-label="Compared players"

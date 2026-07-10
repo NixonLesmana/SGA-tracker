@@ -1,19 +1,14 @@
 import { mvpStats } from "@/data/mvpWatch"
+import PageHeader from "@/components/PageHeader"
 
 function MVPWatch() {
     return (
         <section className="container mx-auto px-4 py-12">
-            <header className="max-w-3xl">
-                <p className="text-sm font-semibold uppercase tracking-wide text-blue-400">
-                    Award Race
-                </p>
-                <h1 className="mt-3 text-4xl font-bold text-white md:text-5xl">
-                    MVP Watch
-                </h1>
-                <p className="mt-4 text-lg leading-8 text-slate-300">
-                    Track Shai&apos;s MVP case through production, efficiency, team success, and recent form.
-                </p>
-            </header>
+            <PageHeader
+                eyebrow="Award Race"
+                title="MVP Watch"
+                description="Track Shai's MVP case through production, efficiency, team success, and recent form."
+            />
 
             <section aria-label="MVP stat summary" className="mt-10 grid grid-cols-1 gap-4 md:grid-cols-2 lg:grid-cols-4">
                 {mvpStats.map((mvp) => (

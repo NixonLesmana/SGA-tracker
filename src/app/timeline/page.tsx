@@ -1,21 +1,14 @@
 import { timelineEvents } from "@/data/timeline"
+import PageHeader from "@/components/PageHeader"
 
 function Timeline() {
     return (
         <section className="container mx-auto px-4 py-12">
-            <header className="max-w-3xl">
-                <p className="text-sm font-semibold uppercase tracking-wide text-blue-400">
-                    Career Arc
-                </p>
-
-                <h1 className="mt-3 text-4xl font-bold text-white md:text-5xl">
-                    Timeline
-                </h1>
-
-                <p className="mt-4 text-lg leading-8 text-slate-300">
-                    Follow Shai&apos;s path from promising guard to NBA MVP and champion.
-                </p>
-            </header>
+            <PageHeader
+                eyebrow="Career Arc"
+                title="Timeline"
+                description="Follow Shai's path from promising guard to NBA MVP and champion."
+            />
 
             <section
                 aria-label="Career timeline"

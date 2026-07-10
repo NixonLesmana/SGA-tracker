@@ -1,19 +1,14 @@
 import { bestGames } from "@/data/bestGames"
+import PageHeader from "@/components/PageHeader"
 
 function BestGames() {
     return (
         <section className="container mx-auto px-4 py-12">
-            <header className="max-w-3xl">
-                <p className="text-sm font-semibold uppercase tracking-wide text-blue-400">
-                    Signature Performances
-                </p>
-                <h1 className="mt-3 text-4xl font-bold text-white md:text-5xl">
-                    Best Games
-                </h1>
-                <p className="mt-4 text-lg leading-8 text-slate-300">
-                    Track Shai&apos;s most impressive scoring nights, clutch games, and all-around performances.
-                </p>
-            </header>
+            <PageHeader
+                eyebrow="Signature Performances"
+                title="Best Games"
+                description="Track Shai's most impressive scoring nights, clutch games, and all-around performances."
+            />
 
             <div className="mt-10 grid grid-cols-1 gap-4 md:grid-cols-2 lg:grid-cols-3">
                 {bestGames.map((game) => (

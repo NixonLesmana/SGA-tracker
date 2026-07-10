@@ -1,19 +1,14 @@
 import { playoffStats, playoffSeries } from "@/data/playoffs"
+import PageHeader from "@/components/PageHeader"
 
 function Playoffs() {
     return (
         <section className="container mx-auto px-4 py-12">
-            <header className="max-w-3xl">
-                <p className="text-sm font-semibold uppercase tracking-wide text-blue-400">
-                    Postseason Mode
-                </p>
-                <h1 className="mt-3 text-4xl font-bold text-white md:text-5xl">
-                    Playoffs
-                </h1>
-                <p className="mt-4 text-lg leading-8 text-slate-300">
-                    Track Shai&apos;s playoff scoring, series results, and signature playoff moments.
-                </p>
-            </header>
+            <PageHeader
+                eyebrow="Postseason Mode"
+                title="Playoffs"
+                description="Track Shai's playoff scoring, series results, and signature playoff moments."
+            />
 
             <section
                 aria-label="Playoff stat summary"
